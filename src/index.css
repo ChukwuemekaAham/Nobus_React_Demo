@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,700");
+
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif !important;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mainbg {
+  background-color: #0d0d2b;
+}
+
+.bgwhitesmoke {
+  background-color: whitesmoke;
+}
+
+#basic-nav-dropdown.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+#basic-nav-dropdown.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1px) and (max-width: 840px) {
+  #call1 {
+    display: none;
+  }
+
+  #call2 {
+    display: block;
+  }
+
+  #ficon1 {
+    display: none;
+  }
+  #ficon2 {
+    display: block;
+  }
+
+  #core1 {
+    display: none;
+  }
+  #core2 {
+    display: block;
+  }
+
+  #log1 {
+    display: none;
+  }
+
+  #log2 {
+    display: block;
+  }
+
+  #cr1 {
+    display: none;
+  }
+
+  #cr2 {
+    display: block;
+  }
+
+  #headerbtn {
+    position: absolute;
+    top: 650px;
+    left: 130px;
+  }
+}
+
+@media screen and (min-width: 841px) {
+  #call2 {
+    display: none;
+  }
+  #call1 {
+    display: block;
+  }
+
+  #ficon2 {
+    display: none;
+  }
+  #ficon1 {
+    display: block;
+  }
+
+  #core2 {
+    display: none;
+  }
+  #core1 {
+    display: block;
+  }
+
+  #cr2 {
+    display: none;
+  }
+  #cr1 {
+    display: block;
+  }
+
+  #log1 {
+    display: block;
+  }
+
+  #log2 {
+    display: none;
+  }
+
+  #headerbtn {
+    position: absolute;
+    top: 580px;
+    left: 130px;
+  }
+}
+
+#chatbtn {
+  position: absolute;
+  top: 580px;
+  right: 50px;
+}
